@@ -1,0 +1,168 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.93;
+  latter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+
+  color: #212121;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.email-adress-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.email-adress:hover,
+.email-adress:focus {
+  color: #2196f3;
+}
+
+.contact-phone-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+
+  color: #757575;
+}
+
+.tittle_h1 {
+  background-color: #212121;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.model-btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  background: #2196f3;
+}
+
+.logo_header {
+  color: black;
+}
+.logo_footer {
+  color: #ffffff;
+}
+.footer-one {
+  background: #2f303a;
+}
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0, 03em;
+  color: #ffffff;
+}
+
+.list-header {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-list-header {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #211221;
+}
+
+.paragraph {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.header_section {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #211221;
+}
+
+.footnote {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0, 03em;
+
+  color: #757575;
+}
+
+.headnote {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0, 03em;
+
+  color: #212121;
+}
+.main_button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #211221;
+  background-color: #f5f4fa;
+}
+.contacts-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.portfolio-email {
+  color: #757575;
+}
+
+.body {
+  font-family: Roboto;
+  font-style: normal;
+}

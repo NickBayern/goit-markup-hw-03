@@ -54,14 +54,14 @@
   color: #757575;
 }
 
-.tittle_h1 {
-  background-color: #212121;
+.title_h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 6%;
   text-align: center;
   color: #ffffff;
+  padding-top: 200px;
 }
 
 .model-btn {
@@ -73,6 +73,9 @@
   cursor: pointer;
   color: rgba(255, 255, 255, 1);
   background: #2196f3;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .logo_header {
@@ -165,4 +168,26 @@
 .body {
   font-family: Roboto;
   font-style: normal;
+}
+.header {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.list {
+  display: flex;
+}
+.header-part {
+  flex-grow: 1;
+}
+.nav-list-item {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.right-section {
+  margin-top: 16px;
+}
+.top-banner {
+  height: 600px;
+  background-color: #212121;
 }

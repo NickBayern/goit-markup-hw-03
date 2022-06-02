@@ -151,11 +151,10 @@
   color: #212121;
 }
 .main_button {
+  width: 130px;
+  height: 38px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: #211221;
+  border: none;
   background-color: #f5f4fa;
 }
 .contacts-footer {
@@ -179,6 +178,8 @@
   display: flex;
   margin-left: 215px;
   margin-right: 215px;
+  margin-top: 25px;
+  margin-bottom: 24px;
 }
 .header-list {
   display: flex;
@@ -240,4 +241,27 @@
   margin-left: 13.5%;
   padding-top: 30px;
   padding-bottom: 60px;
+}
+.button-list {
+  padding: 0;
+  display: flex;
+  margin: 0 30.9% 0 32.3%;
+}
+.button-item {
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 54px;
+}
+.button-item:last-child {
+  padding-right: 0;
+}
+.portfolio-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10.4% 0 10.4%;
+}
+.portfolio-list-item {
+  padding-right: 30px;
+  padding-bottom: 94px;
 }

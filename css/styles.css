@@ -236,3 +236,8 @@
 .team-item:last-child {
   padding-right: 0;
 }
+.footer-content {
+  margin-left: 13.5%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}

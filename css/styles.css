@@ -10,11 +10,13 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.93;
-  latter-spacing: 0.03em;
-
+  text-align: center;
   color: #2196f3;
 }
-
+.nav-list {
+  padding-top: 16px;
+  text-align: center;
+}
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -58,10 +60,12 @@
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 6%;
+  width: 698px;
+  margin: auto;
   text-align: center;
   color: #ffffff;
   padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .model-btn {
@@ -174,15 +178,15 @@
   font-family: Roboto;
   font-style: normal;
 }
-.header {
+
+.header-content {
   display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 25px;
-  margin-bottom: 24px;
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 .header-list {
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .header-part {
   flex-grow: 1;
@@ -190,9 +194,11 @@
 .nav-list-item {
   margin-left: 25px;
   margin-right: 25px;
+  display: inline;
 }
 .right-section {
-  margin-top: 16px;
+  padding-top: 16px;
+  text-align: center;
 }
 .top-banner {
   height: 600px;
@@ -201,11 +207,10 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  text-align: left;
 }
-.container {
-  display: flex;
-  margin: 0 13.5% 0 13.5%;
+.section-container {
+  width: 1200px;
+  margin: auto;
 }
 .features-list {
   display: flex;
@@ -221,21 +226,24 @@
 .images-list {
   padding: 0;
   display: flex;
-  margin: 0 13.5% 0 13.5%;
 }
 .images-item {
-  padding-right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.our-work {
+  padding-top: 0;
+}
+.team-section {
+  background-color: #f5f4fa;
 }
 .team-list {
   padding: 0;
   display: flex;
-  margin: 0 13.5% 0 13.5%;
 }
 .team-item {
-  padding-right: 30px;
-}
-.team-item:last-child {
-  padding-right: 0;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .footer-content {
   margin-left: 13.5%;
@@ -244,13 +252,15 @@
 }
 .button-list {
   padding: 0;
-  display: flex;
-  margin: 0 30.9% 0 32.3%;
+  margin: 0;
+  width: fit-content;
+  margin: auto;
+}
+.button-list li {
+  display: inline;
 }
 .button-item {
   margin-right: 8px;
-  margin-top: 94px;
-  margin-bottom: 54px;
 }
 .button-item:last-child {
   padding-right: 0;
@@ -259,9 +269,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 10.4% 0 10.4%;
 }
 .portfolio-list-item {
   padding-right: 30px;
-  padding-bottom: 94px;
 }

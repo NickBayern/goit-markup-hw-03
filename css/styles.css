@@ -273,3 +273,10 @@
 .portfolio-list-item {
   padding-right: 30px;
 }
+
+.section-top {
+  padding-bottom: 0;
+}
+.section-image {
+  padding-top: 50px;
+}
